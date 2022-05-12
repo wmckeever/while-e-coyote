@@ -18,32 +18,6 @@ Enter some numbers (type 'done' when complete):
 Those numbers sum to 33.2
 ```
 
-## `fibonacci.js`
-
-Write a program, `fibonacci.js` that accepts a number, `n`, from the user and consequently logs the first `n` values in the fibonacci sequence.
-
-The fibonacci sequence starts with 0 then 1. Each subsequent value can be obtained by summing the previous two values:
-```
-0 1 1 2 3 5 8 13 21 34 ...
-```
-
-#### Example
-
-```
-Enter a value for "n":
-> 9
-
-0
-1
-1
-2
-3
-5
-8
-13
-21
-```
-
 ## `number-doubler.js`
 
 Write a program that prompts the user for a number, then repeatedly doubles that number until it is greater than or equal to 100.
@@ -139,3 +113,30 @@ Enter y:
 7
 8 is divisible by 4
 ```
+
+## `fibonacci.js`
+
+Write a program, `fibonacci.js` that accepts a number, `n`, from the user and consequently logs the first `n` values in the fibonacci sequence.
+
+The fibonacci sequence starts with 0 then 1. Each subsequent value can be obtained by summing the previous two values:
+```
+0 1 1 2 3 5 8 13 21 34 ...
+```
+
+#### Example
+
+```
+Enter a value for "n":
+> 9
+
+0
+1
+1
+2
+3
+5
+8
+13
+21
+```
+
