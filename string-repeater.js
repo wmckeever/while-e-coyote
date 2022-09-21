@@ -7,7 +7,7 @@ let sum = input;
 while(sum.length <= 10){
   
   console.log(sum);
-  //sum = sum * 2;
-  sum = sum + sum;
+  
+  sum = sum + input;
 }
 console.log(sum);
