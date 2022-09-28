@@ -1,19 +1,18 @@
 const prompt = require('prompt-sync')({sigint: true});
 
 
-let num1 = Number(prompt("Please enter a number: > "));
-let fsum1 = 0;
-let fsum2 = 1;
-let sequence = 0;
+let number = Number(prompt("Please enter a number: > "));
 
-while (sequence < num1) {
+let fSum1 = 0; 
+let fSum2 = 1; 
+let nextNumber = 2;
+let i = 1;
 
-  console.log(sequence);
+console.log('Fibonacci Series:');
 
-  fsum1 = fsum2;
-  fsum2 = fsum1 + fsum2;
-  sequence++
-
+for (let i = 1; i <= number; i++) {
+    console.log(fSum1);
+    nextNumber = fSum1 + fSum2;
+    fSum1 = fSum2;
+    fSum2 = nextNumber;
 }
-console.log(sequence);
-
